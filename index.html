@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML e CSS</h1>
+    </header>
+    <nav>
+        <a href="html.html">HTML</a>
+        <a href="css.html">CSS</a>
+        <a href="JavaScript.html"></a>
+    </nav>
+    <main>
+        <h1>Introdução ao HTML</h1>
+        <h2>Tags</h2>
+        <h3>Texto e Conteúdo</h3>
+        <p>Tags para etruturar e formatar texto e conteúdo</p>
+
+        <ul><p>&lt;h1&gt; a &lt;h6&gt;</p>
+            <li>Titulos de seção (do maior &lt;h1&gt; ao menor &lt;h6&gt;)</li>
+        </ul>
+        
+        <ul><p>&lt;p&gt;</p>
+            <li>Define um parágrafo</li>
+        </ul>
+       
+        <ul><p>&lt;br&gt;</p>
+            <li>Insere uma quebra de linha</li>
+        </ul>
+       
+        <ul><p>&lt;hr&gt;</p>
+            <li>Insere uma linha horizontal</li>
+        </ul>
+       
+        <ul><p>&lt;a&gt;</p>
+            <li>Cria um hyperlink</li>
+            <ul><p>Atributos:</p>
+                <li>href: URL do destino</li>
+                <li>target: Oonde abrir o link (ex.: target"_blank") </li>
+                <li>title: Texto de dica</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;img&gt;</p>
+            <li>Insere uma imagem</li>
+            <ul><p>Atributos:</p>
+                <li>src: URL da imagem</li>
+                <li>alt: Texto alternativo.</li>
+                <li>width: Largura da imagem.</li>
+                <li>height: Altura da imagem.</li>
+            </ul>
+        </ul>
+
+        <ul><p> &lt;strong&gt;</p>
+            <li>Texto em negrito (ênfase forte)</li>
+        </ul>
+
+        <ul><p> &lt;em&gt;</p>
+            <li>Texto em itálico (ênfase)</li>
+        </ul>
+
+        <ul><p>&lt;span&gt;</p>
+            <li>Agrupa conteúdo inline para estilização.</li>
+        </ul>
+
+        <ul><p>&lt;div&gt;</p>
+            <li>Agrupa conteúdo em blocos para estilização.</li>
+        </ul>
+        
+        <h3>Listas</h3>
+        <p>Tags para criar listas ordenadas, não ordenadas e de definições.</p>
+
+        <ul><p>&lt;ul&gt;</p>
+            <li>Lista não ordenada (com marcadores).</li>
+        </ul>
+
+        <ul><p>&lt;ol&gt;</p>
+            <li>Lista ordenada (numerada).</li>
+            <ul><p>Atributos:</p>
+                <li>type: Tipo de numeração (ex.: 1, A, a, I, i).</li>
+                <li>start: Número inicial.</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;li&gt;</p>
+            <li>Item da lista</li>
+        </ul>
+
+        <ul><p>&lt;dl&gt;</p>
+            <li>Lista de definição</li>
+        </ul>
+
+        <ul><p>&lt;dt&gt;</p>
+            <li>Termo a ser definido.</li>
+        </ul>
+
+        <ul><p>&lt;dd&gt;</p>
+            <li>Definição do termo.</li>
+        </ul>
+
+        <h3>Tabelas</h3>
+        <p>Tags para criar formulários interativos.</p>
+
+        <ul><p>&lt;form&gt;</p>
+            <li>Define um formulário.</li>
+            <ul><p>Atributos:</p>
+                <li>action: URL para envio dos dados.</li>
+                <li>method: Método HTTP (ex.: get, post).</li>
+                <li>enctype: Codificação para envio (ex.: multipart/form-data).</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;input&gt;</p>
+            <li>Campo de entrada de dados.</li>
+            <ul><p>Atributos:</p>
+                <li>type: Tipo de entrada (ex.: text, password, checkbox, radio, submit).</li>
+                <li>name: Nome do campo.</li>
+                <li>value: Valor inicial ou enviado.</li>
+                <li>placeholder: Texto de dica.</li>
+                <li>required: Campo obrigatório.</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;label&gt;</p>
+            <li>Rótulo para um campo.</li>
+            <ul><p>Atributos:</p>
+                <li>for: ID do campo associado.</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;button&gt;</p>
+            <li>Botão clicável.</li>
+            <ul><p>Atributos:</p>
+                <li>type: Tipo de botão (ex.: submit, reset, button).</li>
+            </ul>
+        </ul>
+
+        <h3>Multimídia</h3>
+        <p>Tags para incorporar conteúdo multimídia.</p>
+
+        <ul><p>&lt;audio&gt;</p>
+            <li>Incorpora áudio.</li>
+            <ul><p>Atributos:</p>
+                <li>src: URL do áudio.</li>
+                <li>controls: Exibe controles.</li>
+                <li>autoplay: Inicia automaticamente.</li>
+                <li>loop: Repete o áudio.</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;video&gt;</p>
+            <li>Incorpora vídeo</li>
+            <ul><p>Atributos:</p>
+                <li>src: URL do vídeo.</li>
+                <li>controls: Exibe controles.</li>
+                <li>autoplay: Inicia automaticamente.</li>
+                <li>loop: Repete o vídeo.</li>
+                <li>width: Largura do vídeo.</li>
+                <li>height: Altura do vídeo.</li>
+            </ul>
+        </ul>
+        
+        <ul><p>&lt;iframe&gt;</p>
+            <li>Incorpora outro documento HTML.</li>
+            <ul><p>Atributos:</p>
+                <li>src: URL do documento.</li>
+                <li>width: Largura do iframe.</li>
+                <li>height: Altura do iframe.</li>
+                <li>frameborder: Define a borda (0 ou 1).</li>
+            </ul>
+        </ul>
+
+        <h3>Semântica HTML5</h3>
+        <p>Tags que adicionam significado ao conteúdo.</p>
+
+        <ul><p>&lt;header&gt;</p>
+            <li>Rodapé da página ou seção.</li>
+        </ul>
+
+        <ul><p>&lt;nav&gt;</p>
+            <li>Seção de navegação.</li>
+        </ul>
+
+        <ul><p>&lt;article&gt;</p>
+            <li>Conteúdo independente (ex.: post de blog).</li>
+        </ul>
+
+        <ul><p>&lt;section&gt;</p>
+            <li>Seção temática da página.</li>
+        </ul>
+
+        <ul><p>&lt;aside&gt;</p>
+            <li>Conteúdo relacionado (ex.: barra lateral).</li>
+        </ul>
+
+        <ul><p>&lt;main&gt;</p>
+            <li>Conteúdo principal da página.</li>
+        </ul>
+
+        <ul><p>&lt;footer&gt;</p>
+            <li>Rodapé da página</li>
+        </ul>
+
+        <h3>Outras Tags</h3>
+        <p>Tags com funções específicas</p>
+
+        <ul><p>&lt;blockquote&gt;</p>
+            <li>Citação em bloco.</li>
+            <ul><p>Atributos:</p>
+                <li>cite: URL da fonte.</li>
+            </ul>
+        </ul>
+
+        <ul><p>&lt;code&gt;</p>
+            <li>Código de computador.</li>
+        </ul>
+
+        <ul><p>&lt;pre&gt;</p>
+            <li>Texto pré-formatado</li>
+        </ul>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://github.com/EWilderode">Enzo Wilderode</a></p>
+    </footer>
+</body>
+</html>
